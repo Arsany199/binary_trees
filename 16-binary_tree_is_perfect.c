@@ -2,7 +2,7 @@
 
 /**
  * compare - compare the size of the tree
- * @tree: pointer to the root 
+ * @tree: pointer to the root
  * Return:size
  */
 int compare(const binary_tree_t *tree)
@@ -30,7 +30,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (0);
 	}
 
-	if (tree &&(!tree->left && !tree->right))
+	if (tree && (!tree->left && !tree->right))
 	{
 		return (1);
 	}
